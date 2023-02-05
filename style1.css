@@ -166,12 +166,56 @@ h2{
   text-align:center;
 }
 
+.lessontitle{
+  font-size:60px;
+  color:white;
+  padding-top:2rem;
+  padding-bottom:1.5rem;
+}
+
+.introduction{
+  font-size:50px;
+  color:orange;
+  padding-top:1rem;
+  padding-bottom:1rem;
+}
+
+.header{
+  font-size:50px;
+  color:orange;
+  padding-top:4.5rem;
+  padding-bottom:1rem;
+}
+
+.question{
+  color:palegoldenrod;
+}
+
 .answer{
-  color:black;
+  color:#080808;
 }
 
 .answer:hover{
   color:white;
+}
+
+.answerline{
+  margin-left:5%;
+  padding-bottom:4rem;
+}
+
+.exampleline{
+  margin-left:5%;
+}
+
+.endexampleline{
+  margin-left:5%;
+  padding-bottom:4rem;
+}
+
+.bold{
+  color:orange;
+  font-weight: bold;
 }
 
 /* Change this in order to change the Dropdown symbol */
