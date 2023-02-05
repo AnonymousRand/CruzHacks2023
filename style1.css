@@ -18,7 +18,7 @@ body {
 	}
 
 .text{
-    transition: .3s ease;
+    transition: .3s ease-out;
     }
 .title{
     text-shadow: .05em .05em 0em #00ffd5, -.05em -.05em 0em #ff009d, 0 0 0em #d10282;
@@ -26,7 +26,8 @@ body {
     font-family: 'Libre Baskerville', serif;
     display: flex;
     margin: 0;
-    padding: 20rem;
+    height:100%;
+    padding: 23%;
     list-style: none;
     justify-content: center;
     transition: all .3s ease;
@@ -75,8 +76,16 @@ p {
 	text-align: center;
 }
 
-nav {
-	margin: 0px;
+.sticky {
+  position:fixed;
+	background-color:white;
+}
+
+#navbar{
+  position: absolute;
+	bottom: -1;
+	width: 100%;
+	height: auto;
 	background-color: #E64A19;
 }
 
@@ -139,57 +148,13 @@ p{
     background-color: #d10282;
     display: block;
 }
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 60px;
-  }
-
-// Animate //
-@keyframes lookDown {
-    0% {
-      top: 0
-    }
-    50% {
-      top: 10px
-    }
-    100% {
-      top: 0
-    }
-  }
-  .arrow-down {
-    width: 40px;
-    height: 40px;
-    position: relative;
-    display: block;
-    text-align: center;
-    margin-left: 20px;
-    animation: lookDown 0.75s ease-in-out infinite;
-    &:before, 
-    &:after {
-      position: absolute;
-      height: 50%;
-      width: 3px;
-      background: #fff;
-      content: '';
-      display: block;
-      top: 0;
-      
-    }
-    &:after {
-      transform: rotate(45deg);
-      right: 25px;
-    }
-    &:before {
-      transform: rotate(-45deg);
-    }
-  }
+p.intro{
+  margin-top:5rem;
+}
+div.introPanel{
+  display: inline-block;
+  padding: 2rem;
+}
 
 /* Change this in order to change the Dropdown symbol */
 li > a:after { content:  ' ->'; }
