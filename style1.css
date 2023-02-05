@@ -166,6 +166,27 @@ h2{
   text-align:center;
 }
 
+.lessontitle{
+  font-size:60px;
+  color:white;
+  padding-top:2rem;
+  padding-bottom:1.5rem;
+}
+
+.introduction{
+  font-size:50px;
+  color:orange;
+  padding-top:1rem;
+  padding-bottom:1rem;
+}
+
+.header{
+  font-size:50px;
+  color:orange;
+  padding-top:4.5rem;
+  padding-bottom:1rem;
+}
+
 .question{
   color:palegoldenrod;
 }

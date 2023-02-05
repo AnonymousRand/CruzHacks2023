@@ -134,9 +134,9 @@
         </li>
       </ul>
     </nav>
-  <p style="font-size:60px; color:white; padding-top: 2rem; padding-bottom:2rem;"><b>2.1.2 Limit Definition of a Derivative</b></p>
+  <p class="lessontitle"><b>2.1.2 Limit Definition of a Derivative</b></p>
   <div id="introduction">
-    <p style="font-size:50px; color:orange; padding-top: 1rem; padding-bottom:2rem;"><b>Introduction</b></p>
+    <p class="introduction"><b>Introduction</b></p>
     <p>While there are many, many shortcuts when it comes to actually finding derivatives, it becomes unfortunately necessary to first consider the “proper”, more tedious way to find a derivative first. We do this through limits (yep, that thing). There are 2 commonly-accepted <span class="bold">limit definitions of a derivative</span> (note that we have replaced $y$ with $f(x)$ for more convenient limit notation; they mean the same thing):
     </p>
     <p>$f'(x) = \lim_{h \to 0}{\frac{f(x + h) - f(x)}{h}}$</p>
@@ -145,7 +145,7 @@
     </p>
   </div>
   <div id="example problems">
-    <p style="font-size:50px; color:orange; padding-top: 4rem; padding-bottom:2rem;"><b>Example Problems</b></p>
+    <p class="header"><b>Example Problems</b></p>
     <p>You might be asked to identify the limit definition of a function’s derivative; basically taking this long way to calculate the derivative:
     </p>
     <p class="question">1. Find the limit definition of the derivative of $y = 2x^2 + 3x - 1$.</p>
@@ -165,17 +165,22 @@
     </p>
     <p class="endexampleline">In the case that we are dealing with the second form instead, which can be detected by the lack of $h$ (or the two terms in the denominator instead of one), we look at the first half of the numerator.
     </p>
+    <p class="question">3. Find the function whose derivative is given by $\lim_{x \to w}{\frac{(2x + 2) - (2w + 2)}{w - x}}$.
+    </p>
+    <!-- no endexampleline here dince practice problems already has padding on top -->
+    <p class="exampleline">Don’t let the change from $a$ to $w$ scare you—the form is still functionally the same, and therefore the original function is $y = 2x + 2$.
+    </p>
   </div>
   <div id="practice problems">
-    <p style="font-size:50px; color:orange; padding-top: 4rem; padding-bottom:2rem;"><b>Practice Problems</b></p>
-    <p class="question">1. If the derivative of a function is $y' = 2\sqrt{x}$, what would be the slope of the original curve at the exact moment x = 9?
+    <p class="header"><b>Practice Problems</b></p>
+    <p class="question">1. Find the limit definition of the derivative of $y = \frac{2x}{3}$.
     </p>
-    <p class="answerline">Answer (hover): <span class="answer">6</span></p>
-    <p class="question">2. If the derivative of a function is $y' = \frac{3}{x}$, what would be the slope of the line tangent to the original function at x = 4?
+    <p class="answerline">Answer (hover): <span class="answer">$\lim_{h \to 0}{\frac{\left(\frac{2(x + h)}{3} \right) - \left(\frac{2x}{3} \right)}{h}}$ or $\lim_{x \to a}{\frac{\left(\frac{2x}{3} \right) - \left(\frac{2a}{3} \right)}{x - a}}$</span></p>
+    <p class="question">2. Find the function whose derivative is given by $\lim_{x \to a}{\frac{4\tan{x} - 4\tan{a}}{x - a}}$.
     </p>
-    <p class="answerline">Answer (hover): <span class="answer">$\frac{3}{4}$</span></p>
-    <p class="question">3. If the derivative of a function is $y' = \ln(x)$, what would be the instantaneous rate of change of the original function at x = e?
+    <p class="answerline">Answer (hover): <span class="answer">$y = 4\tan{x}$</span></p>
+    <p class="question">3. Find the function whose derivative is given by $\lim_{t \to 0}{\frac{\left(\ln{\left((x + t)^3 \right)} - \frac{1}{(x + t)} \right) - \left(\ln{\left(x^3 \right)} - \frac{1}{x} \right)}{t}}$.
     </p>
-    <p class="answerline">Answer (hover): <span class="answer">1</span></p>
+    <p class="answerline">Answer (hover): <span class="answer">$y = \ln{\left(x^3 \right)} - \frac{1}{x}$</span></p>
   </div>
 </body>
