@@ -170,6 +170,11 @@ table, th, tr, td{
   border:1px solid white
 }
 
+table{
+  margin-left:auto;
+  margin-right:auto;
+}
+
 th, td{
   text-align:center;
   padding-left:3px;
@@ -210,7 +215,7 @@ th, td{
 }
 
 .answer:hover{
-  color:white;
+  color:#d3d4d4;
 }
 
 .answerline{
