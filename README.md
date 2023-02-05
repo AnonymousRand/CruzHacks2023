@@ -1,2 +1,5 @@
 # CruzHacks 2023
-yes
+www.Learncalc.tech
+Created by:
+Alex Hu: calculus lessons
+Brenner Krogh: web development
