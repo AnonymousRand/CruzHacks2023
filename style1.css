@@ -166,6 +166,16 @@ h2{
   text-align:center;
 }
 
+table, th, tr, td{
+  border:1px solid white
+}
+
+th, td{
+  text-align:center;
+  padding-left:3px;
+  padding-right:3px
+}
+
 .lessontitle{
   font-size:60px;
   color:white;
