@@ -166,12 +166,35 @@ h2{
   text-align:center;
 }
 
+.question{
+  color:palegoldenrod;
+}
+
 .answer{
-  color:black;
+  color:#080808;
 }
 
 .answer:hover{
   color:white;
+}
+
+.answerline{
+  margin-left:5%;
+  padding-bottom:4rem;
+}
+
+.exampleline{
+  margin-left:5%;
+}
+
+.endexampleline{
+  margin-left:5%;
+  padding-bottom:4rem;
+}
+
+.bold{
+  color:orange;
+  font-weight: bold;
 }
 
 /* Change this in order to change the Dropdown symbol */
