@@ -4,17 +4,18 @@
 
 }
 html, body {
-    margin: 0;
     height: 100%;
 }
 body {
-    height: 100%;
+  margin:0;
+  min-height: 400vh;
 	background: #080808;
 	font-size:22px;
 	line-height: 32px;
 	color: #ffffff;
 	word-wrap:break-word !important;
 	font-family: 'Libre Baskerville',sans-serif;
+  display:inline-block;
 	}
 
 .text{
@@ -77,13 +78,13 @@ p {
 }
 
 .sticky {
-  position:fixed;
+  position:sticky;
+  top:0;
 	background-color:white;
 }
 
 #navbar{
-  position: absolute;
-	bottom: -1;
+	bottom: -100;
 	width: 100%;
 	height: auto;
 	background-color: #E64A19;
@@ -141,7 +142,8 @@ nav ul ul ul li {
 	left:170px;
 }
 p{
-    margin:2.5rem;
+    text-align:start;
+    margin:2rem;
     color:#d3d4d4;
 }
 .preview{
@@ -150,10 +152,15 @@ p{
 }
 p.intro{
   margin-top:5rem;
+  text-align:start;
 }
 div.introPanel{
   display: inline-block;
   padding: 2rem;
+}
+
+h2{
+  text-align:center;
 }
 
 /* Change this in order to change the Dropdown symbol */
