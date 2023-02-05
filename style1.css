@@ -102,7 +102,7 @@ nav ul li {
 	background-color: #E64A19;
 	}
 
-/* todo: make nav bar menus open up a bit smaller vertically or scrollable (line-height doesn't work) */
+/* todo: make nav bar menus open up a bit smaller vertically or scrollable  (line-height doesn't work) */
 nav a {
 	display:block;
 	padding:0 10px;	
@@ -126,6 +126,7 @@ nav ul ul {
 /* Display Dropdowns on Hover */
 nav ul li:hover > ul {
 	display:inherit;
+  color:#000000;
 }
 	
 /* First Tier Dropdown */
