@@ -1,7 +1,8 @@
 # CruzHacks 2023
-www.learncalc.tech
+https://learncalc.datacrystals.net/
 
 # Created by:
-Alex Hu: calculus lessons & lesson page layout
 
-Brenner Krogh: web development
+Alex Hu: calculus lessons & lesson pages
+
+Brenner Krogh: web development, main page and about us, server backend
