@@ -161,6 +161,11 @@ p.intro{
 div.introPanel{
   display: inline-block;
   padding: 2rem;
+
+}
+
+div#handle.intropanel{
+  
 }
 
 h2{
